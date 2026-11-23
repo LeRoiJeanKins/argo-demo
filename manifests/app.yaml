@@ -1,11 +1,11 @@
-apiVersion: v2
+apiVersion: v3
 kind: ConfigMap
 metadata:
   name: page-web-html
 data:
   index.html: |
     <html>
-      <body style="background-color: #000000; color: white; font-family: sans-serif; text-align: center; padding-top: 100px;">
+      <body style="background-color: #FFFFFF; color: white; font-family: sans-serif; text-align: center; padding-top: 100px;">
         <h1>VERSION 1 : Site en ligne !</h1>
         <p>Deployee automatiquement par Argo CD</p>
       </body>
